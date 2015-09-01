@@ -1,0 +1,59 @@
+p {
+ opacity: 0;
+  height: 400px;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  font-size: 140px;
+  color: white;
+  line-height: 0.9;
+  text-stroke: 2.5px #FF0066;
+  -webkit-text-stroke: 4px #FF0066;
+  vertical-align: middle;
+}
+p:hover {
+ opacity: 1;
+}
+div {
+  position: fixed;
+  height: 400px;
+  width: 650px;
+  z-index: 1;
+}
+div#clams {
+  left: 17%;
+  top: 43%;
+}
+div#plump {
+  left: 58%;
+  top: 12%; 
+}
+div#marinades {
+  left: 26%;
+  top: 8%; 
+}
+div#tenderising {
+  left: 67%;
+  top: 40%; 
+}
+div#flan {
+  left: 74%;
+  top: 72%;
+}
+div#tart {
+  left: 10%;
+  top: 72%;
+}
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  z-index: -1;
+}

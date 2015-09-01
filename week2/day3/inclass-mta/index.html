@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MTA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form>
+    <label for="start-train">Start Line:</label>
+    <select name="start-train" id="start-train">
+      <option value="default">-- Choose your start line --</option>
+      <option value="n">n</option>
+      <option value="l">l</option>
+      <option value="s">s</option>
+    </select>
+    <br>
+    <label for="first-stop">First Stop:</label>
+    <select name="first-stop" id="first-stop"></select>
+    <br>
+    <label for="stop-train">Stop Line:</label>
+    <select name="stop-train" id="stop-train">
+      <option value="default">-- Choose your end line --</option>
+      <option value="n">n</option>
+      <option value="l">l</option>
+      <option value="s">s</option>
+    </select>
+    <br>
+    <label for="last-stop">Last Stop:</label>
+    <select name="last-stop" id="last-stop"></select>
+    <br>
+    <button id="calculate">Calculate!</button>
+  </form>
+
+  <p id="result"></p>
+  <p id="error"></p>
+
+  <script src="js/mta.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

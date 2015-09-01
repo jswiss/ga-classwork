@@ -1,0 +1,21 @@
+var studentsArray = ["Ambarr", "Carryl", "Chris", "Christine", "Denis", "Gary", "Jack", "James", "Joshua", "Luke", "Mark", "Mike", "Max", "Niall", "Paco", "Rob", "Sam", "Yao"];
+
+var studentPicker = function() {
+  var randomIndex = Math.floor(Math.random() * studentsArray.length)
+  var randomStudent = studentsArray[randomIndex];
+  studentsArray.splice(randomIndex, 1);
+  console.log(studentsArray.length);
+  return(randomStudent);
+};
+
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());
+console.log(studentPicker());

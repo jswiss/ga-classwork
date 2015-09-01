@@ -1,0 +1,28 @@
+body {
+  /*background-color: red;*/
+}
+
+p {
+  color: orange;
+  font-size: 40px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.text-align {
+  text-align: right;
+}
+
+.yellow-font {
+  color: yellow;
+}

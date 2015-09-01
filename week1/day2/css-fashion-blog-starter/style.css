@@ -1,0 +1,89 @@
+.h1-link {
+  display: inline;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  color: #F56666;
+}
+
+.h1-link a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F57777;
+}
+
+.sub-title {
+  display: inline;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  color: #BBBBBB;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+nav ul li {
+  width: 10%; display: inline-block;
+ 
+}
+
+header nav a {
+  display: block;
+  font-size: 15px;
+  color: white;
+  background: black;
+  margin-right: 1px;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:visited {
+  color: white;
+}
+
+time {
+  font-size: 32px;
+  color: #CCCCCC;
+}
+
+.article-head {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  color: black;
+  
+}
+
+.article-head a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+
+aside {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+}
+
+img {
+  margin: o auto;
+  display: block;
+}
