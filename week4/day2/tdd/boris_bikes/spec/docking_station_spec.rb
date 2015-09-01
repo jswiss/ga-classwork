@@ -3,6 +3,10 @@ require_relative '../lib/bike'
 
 describe DockingStation do
 
+  def fill_station station
+    20.times { station.dock(Bike.new) }
+  end
+
   let(:station) { DockingStation.new({capacity: 20}) }
   let(:bike) { Bike.new }
 
@@ -22,9 +26,20 @@ describe DockingStation do
   end
 
   it 'should know when it has reached capacity' do
-    20.times { station.dock(Bike.new) }
-
+    fill_station(station)
     expect(station.full?).to be true
   end
 
+  it 'should not accept a bike if it\'s full' do
+    fill_station(station)
+    expect {station.dock(bike)}.to raise_error 'Station is full'
+  end
+
 end
+
+
+
+
+
+
+
