@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sinatra Homepage</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1> <%= @header %> </h1> <!-- =print out header -->
+  <ul>
+  <% @data[:hobbies].each do |hobby| %> <!-- -don't print out data -->
+    <li><%= hobby %></li>
+  <% end %>
+  </ul>
+
+<% @images.each do |image| %>
+  <img src="/<%= image %>" alt="">
+<% end %>
+
+  <script src="/app.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>

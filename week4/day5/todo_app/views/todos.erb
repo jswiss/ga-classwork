@@ -1,0 +1,7 @@
+<%= @header %>
+
+<% @todos.each do |td| %>
+  <p><a href="<%= td['task'] %>"><%= td['task'] %></a></p><p></p><p><%= td['description'] %></p>
+<% end %>
+
+<a href="todos/new" title="Create a New Task">Create a New Task</a>

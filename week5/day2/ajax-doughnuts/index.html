@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Doughnuts!</title>
+</head>
+<body>
+	
+	<form id="new-doughnut">
+		<input type="text" name="doughnut-flavour" id="doughnut-flavour" autofocus placeholder="what flavour of doughnut?">
+		<select name="doughnut-style" id="doughnut-style">
+			<option value="Default">--Choose yo style--</option>
+			<option value="Old Fashioned">Old Fashioned</option>
+			<option value="Cake">Cake</option>
+			<option value="Yeast">Yeast</option>
+			<option value="Fritter">Fritter</option>
+		</select>
+		<input type="submit" value="Add my doughnut">
+	</form>
+
+	<ul id="doughnuts"></ul>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/jq.js"></script>
+</body>
+</html>

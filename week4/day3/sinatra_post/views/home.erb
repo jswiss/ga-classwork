@@ -1,0 +1,10 @@
+<h1><%= @title %></h1> <!-- no html, because it's all being chucked into the layout.erb page -->
+
+<% if @error %>
+  <h2><%= @error %></h2>
+<% end %>
+
+<form action="/navigate" method="post">
+  <input type="text" name="destination" autofocus>
+  <button>Click Me!</button>  <!-- Default action of a form is get! -->
+</form>
