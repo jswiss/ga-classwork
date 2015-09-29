@@ -1,0 +1,7 @@
+<div class="song-info">
+	<h2><%= @song.title %> appears on:</h2>
+	
+	<% @song.albums.each do |album| %>
+		<h2><%= link_to album.name, album_path(album) %></h2>
+		<% end %>
+</div>
